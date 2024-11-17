@@ -1,0 +1,43 @@
+{
+  "activation_dropout": 0.0,
+  "activation_fn": "gelu",
+  "attention_dropout": 0.0,
+  "attention_type": "DilatedAttention",
+  "bos_token_id": 0,
+  "decoder_attention_heads": 12,
+  "decoder_ffn_embed_dim": 1280,
+  "decoder_layers": 12,
+  "decoder_normalize_before": true,
+  "deepnorm": false,
+  "dilated_ratio": [
+    1,
+    2
+  ],
+  "drop_path_rate": 0.0,
+  "dropout": 0.0,
+  "embed_dim": 768,
+  "encoder_ffn_embed_dim": 3072,
+  "encoder_layers": 12,
+  "encoder_normalize_before": true,
+  "eos_token_id": 2,
+  "flash_attention": true,
+  "initializer_range": 0.02,
+  "layernorm_embedding": false,
+  "layernorm_eps": 1e-06,
+  "mask_token_id": 4,
+  "max_positions": 65536,
+  "max_rel_pos": 0,
+  "no_scale_embedding": true,
+  "normalize_output": true,
+  "num_attention_heads": 12,
+  "pad_token_id": 1,
+  "rel_pos_buckets": 0,
+  "segment_length": [
+    2048,
+    4096
+  ],
+  "seq_parallel": false,
+  "subln": true,
+  "transformers_version": "4.44.2",
+  "vocab_size": 19
+}
